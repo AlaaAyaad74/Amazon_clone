@@ -116,7 +116,7 @@ const FooterStyle = styled.div`
   .menu__Links h2 {
     font-size: 1.01rem;
 
-    margin: 1rem 0 0.5rem;
+    margin: 1rem 0  0.85rem;
   }
   .menu__Links li {
     margin-bottom: 0.5rem;
@@ -133,7 +133,7 @@ const FooterStyle = styled.div`
     display: block;
     height: 0.5px;
     background-color: #ddd;
-    margin-bottom: 0.5rem;
+    margin: 1.5rem 0 0.5rem;
   }
   .The__end {
     width: 270px;
