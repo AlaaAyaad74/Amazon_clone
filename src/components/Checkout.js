@@ -11,10 +11,6 @@ function About({ id, img, rating, title, price }) {
       rating: rating,
       title: title,
       price: price,
-        
-        
-        
-       
     });
   };
   console.log(basket.length > 0 ? basket[0].id : "");
@@ -88,7 +84,8 @@ const CheckOutStyle = styled.div`
   }
   h1 {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    min-height: 200px;
   }
   .found {
     text-align: start;
